@@ -43,13 +43,13 @@ class ShowFilm extends React.Component{
 						<div className="img-wrap"></div>
 						<figcaption className="info-wrap">
 								<h4 className="title">{film.title}</h4>
-								<p className="desc">Description: {film.opening_crawl}</p>
-								<p className="desc">Director: {film.director}</p>
-								<p className="desc">Producer: {film.producer}</p>
-								<p className="desc">Release Date: {film.release_date}</p>
-								<p className="desc">Edited: {film.edited}</p>
-								<p className="desc">Created: {film.created}</p>
-								<p className="desc">Episode: {film.episode_id}</p>
+								<p className="desc"><b>Description:</b> {film.opening_crawl}</p>
+								<p className="desc"><b>Director:</b> {film.director}</p>
+								<p className="desc"><b>Producer:</b> {film.producer}</p>
+								<p className="desc"><b>Release Date:</b> {film.release_date}</p>
+								<p className="desc"><b>Edited:</b> {film.edited}</p>
+								<p className="desc"><b>Created:</b> {film.created}</p>
+								<p className="desc"><b>Episode:</b> {film.episode_id}</p>
 								<p className="desc"><Link to={'/films'}>Back</Link></p>
 							
 						</figcaption>
