@@ -1,0 +1,188 @@
+body { margin-top:0px; }
+.panel-title {display: inline;font-weight: bold;}
+.checkbox.pull-right { margin: 0; }
+.pl-ziro { padding-left: 0px; }
+
+
+
+.mt-10{
+	margin-top: 20px;
+}
+.search-icon{
+    
+    border: 1px solid #ccc;
+    font-size: 28px;
+    padding: 3.5px
+    
+}
+.main-show-div{
+ margin-left: 25%;
+
+}
+.actions a{
+	padding-left:  8px;
+}
+ .card-product{
+ 	background-color: #f7f0f0;
+ 	padding: 20px;
+ }
+/* Radio button*/
+
+.main-div{
+	  background: #edeeec;
+    height: 100vh;
+}
+.radiotextsty {
+  color: #A5A4BF;
+  font-size: 18px;
+}
+.logo-content{
+	  text-align: center;
+    background: #edeeec;
+    padding-top: 15px;
+}
+.logo{
+	 max-width: 220px;
+}
+.customradio {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.customradio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: white;
+  border-radius: 50%;
+  border:1px solid #BEBEBE;
+}
+
+/* On mouse-over, add a grey background color */
+.customradio:hover input ~ .checkmark {
+  background-color: transparent;
+}
+
+/* When the radio button is checked, add a blue background */
+.customradio input:checked ~ .checkmark {
+  background-color: white;
+  border:1px solid #BEBEBE;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.customradio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.customradio .checkmark:after {
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #3DABFB;
+}
+
+.form-check-inline {
+	margin-left: 30%;
+	margin-right: 0;
+
+}
+/*End*/
+
+
+/*Payment Page Starts*/
+.payment-form-bg {
+	background: #EEEEED;
+
+}
+
+.payment-form-modal {
+	background: #fff;
+	border-radius: 10px;
+	padding: 0px;
+	margin-top: 50px;
+	border: 1px solid #ccc;
+}
+
+.payment-form-modal .form-group {
+	margin-bottom: 0;
+}
+
+.btn-rounded{
+	border-radius: 60px !important;
+}
+
+.payment-form-modal .panel-title {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	display: block;
+	color: #fff;
+	background: #00a0b2;
+	padding: 10px;
+	border-radius: 5px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.payment-form-modal .panel-body {
+	padding: 15px;
+}
+
+.payment-form-modal .panel-body input {
+	margin-bottom: 15px;
+}
+
+.payment-form-modal .card-amount {
+	font-size: 16px;
+	color: #222;
+	margin-top: 0px;
+	margin-bottom: 15;
+}
+
+.payment-form-modal #field-wrapper {
+	overflow: visible;
+	margin-bottom: 10px;
+}
+
+.payment-form-modal #field-wrapper input {
+	border: 1px solid #ccc;
+	padding: 4px;
+	border-radius: 5px;
+}
+
+.payment-form-modal .btn-login {
+	margin: 10px auto;
+	display: block;
+	border-radius: 0;
+	min-width: 120px;
+	background: #00a0b2;
+}
+/*Payment Page Ends*/
